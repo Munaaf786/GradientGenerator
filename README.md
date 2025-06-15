@@ -1,6 +1,6 @@
-In this project, let's build a **Gradient Generator** app by applying the concepts we have learned till now.
+In this project, I've built a **Gradient Generator** app by applying the concepts I have learned till now.
 
-### Refer to the image below:
+### Output is as per the image below:
 
 <br/>
 <div style="text-align: center;">
@@ -30,17 +30,17 @@ In this project, let's build a **Gradient Generator** app by applying the concep
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionality added</summary>
 <br/>
 
-The app must have the following functionalities
+The app has the following functionalities
 
-- Initially, the selected gradient direction should be the first value in the given `gradientDirectionsList`
-- The initial values for the HTML input elements with type color should be **#8ae323** and **#014f7b** respectively
-- When the values are provided for both the input elements with type color, then provided values should be the text content for the respective paragraph elements
-- When the **Generate** button is clicked after selecting the direction and picking the colors, the background of the app should have a linear gradient with the selected direction and colors provided
+- Initially, the selected gradient direction is the first value in the given `gradientDirectionsList`
+- The initial values for the HTML input elements with type color are **#8ae323** and **#014f7b** respectively
+- When the values are provided for both the input elements with type color, then provided values are the text content for the respective paragraph elements
+- When the **Generate** button is clicked after selecting the direction and picking the colors, the background of the app has a linear gradient with the selected direction and colors provided
 
-- The `GradientGenerator` component will consist `gradientDirectionsList`. It consists of a list of gradient directions objects with the following properties in each gradient directions object
+- The `GradientGenerator` component consists `gradientDirectionsList`. It consists of a list of gradient directions objects with the following properties in each gradient directions object
 
   |    Key      | Data Type |
   | :--------:  | :-------: |
@@ -65,7 +65,7 @@ The app must have the following functionalities
 <summary>Implementation Files</summary>
 <br/>
 
-Use these files to complete the implementation:
+Used these files to complete the implementation:
 
 - `src/components/GradientGenerator/index.js`
 - `src/components/GradientGenerator/styledComponents.js`
@@ -100,7 +100,7 @@ Use these files to complete the implementation:
 
 <br/>
 
-**The following instructions are required for the tests to pass**
+**The following instructions were required for the tests to pass**
 
 - The HTML container element for the linear gradient values are applied should have `data-testid` as **gradientGenerator**
 - When a gradient direction button is active then the button should have the CSS property opacity with the value **1**
@@ -132,9 +132,11 @@ Use these files to complete the implementation:
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+### Conclusion  
+
+- Thanks for checking out my Gradient Generator App! This project showcases my skills in React and styled-components, with features like dynamic gradient creation, color picking, and responsive design. Feel free to explore, fork, or contribute!
+
+🔗 Check it out here: [https://makeGradients.ccbp.tech](https://makeGradients.ccbp.tech)
+
+Happy coding! 🚀
+
